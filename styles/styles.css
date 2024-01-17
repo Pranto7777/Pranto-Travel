@@ -1,0 +1,391 @@
+* {
+
+    font-family: 'Mulish', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+
+.header {
+    background: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    /* filter: brightness(0.7); */
+    margin: 0 135px;
+}
+
+.header-content-text {
+    text-align: center;
+    padding-top: 106px;
+}
+
+.header-content-text h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.header-content-text p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.popular-tours-content {
+    display: flex;
+    margin: 100px 135px;
+    align-items: center;
+}
+
+.popular-tours-content-text {
+    padding-right: 50px;
+}
+
+.popular-tours-content-text h1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.popular-tours-content-text p ul {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.btn-primary {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+    margin-top: 30px;
+}
+
+.card-1 {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding-left: 32px;
+    padding-top: 32px;
+}
+
+.card-2 {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding-left: 32px;
+    padding-top: 32px;
+    margin-left: 24px;
+}
+
+.card-3 {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding-left: 32px;
+    padding-top: 32px;
+    margin-top: 24px;
+
+}
+
+.card-row-1 {
+    display: flex;
+    margin-top: 50px;
+}
+
+.card-row-2 {
+    /* text-align: center; */
+    margin-left: 300px;
+}
+
+.service {
+    margin: 0 135px;
+}
+
+.service-content-text {
+    text-align: center;
+}
+
+.service-content-text h1{
+    color: #131318;
+font-size: 40px;
+font-weight: 800;
+}
+.service-content-text p{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+
+.card-1 h3{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.card-1 p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.card-2 h3{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.card-2 p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.card-3 h3{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.card-3 p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.newsletter-form {
+
+    width: 474px;
+    height: 422px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.form-name {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+}
+
+.form-email {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+}
+
+.form-submit {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+}
+
+.newsletter-form{
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+}
+
+.newsletter{
+    display: flex;
+    margin: 100px 135px;
+    align-items: center;
+}
+
+.newsletter-img{
+    padding-left: 40px;
+}
+
+.footer{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-color: rgba(19, 19, 24, 0.05);;
+}
+
+.place-content{
+    display: flex;
+}
+
+.place{
+    margin: 100px 135px;
+}
+
+.place-content-text h1{
+    color: #131318;
+font-size: 40px;
+font-weight: 800;
+line-height: 60px
+}
+
+.place-content-text p{
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px
+}
+
+.place-content-text ul{
+    color: #131318;
+font-size: 16px;
+font-weight: 700;
+line-height: 26px;
+}
+
+.place-content-text button{
+    width: 174px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+border: none;
+color: #FFF;
+font-size: 20px;
+font-weight: 800;
+}
+
+.newsletter-form h3{
+    padding-bottom: 16px;
+}
+.newsletter-form p{
+    padding-bottom: 25px;
+}
+
+.place-content-text{
+    padding-right: 40px;
+}
+
+.newsletter-form form{
+    margin-top: 25px;
+}
+
+.footer-content-text{
+    text-align: center;
+    padding-top: 110px;
+}
+
+.header-form form{
+    text-align: center;
+}
+
+.Where-go{
+    width: 174px;
+height: 52px;
+border-radius: 8px;
+background: #FFF;
+color: rgba(19, 19, 24, 0.50);
+font-size: 16px;
+font-weight: 400;
+border: none;
+}
+.When{
+    width: 174px;
+height: 52px;
+border-radius: 8px;
+background: #FFF;
+color: rgba(19, 19, 24, 0.50);
+font-size: 16px;
+font-weight: 400;
+border: none;
+}
+.Select-Type{
+    width: 174px;
+height: 52px;
+border-radius: 8px;
+background: #FFF;
+color: rgba(19, 19, 24, 0.50);
+font-size: 16px;
+font-weight: 400;
+border: none;
+}
+.Find-Now{
+    width: 174px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+font-size: 16px;
+font-weight: 700;
+border: none;
+}
+
+@media screen and (max-width: 576px) {
+    .popular-tours-content {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .header {
+        margin: 0%;
+
+    }
+
+    .card-row-1{
+        flex-direction: column;
+    }
+    .service{
+        margin: 20px;
+    }
+    .card-1{
+        width: 430px;
+    }
+    .card-2{
+        width: 430px;
+        margin-top: 24px;
+        padding-left: 0%;
+    }
+    .card-3{
+        width: 430px;
+    }
+    .card-row-2{
+        margin: 0%;
+    }
+
+    .place-content{
+        flex-direction: column;
+    }
+
+    .place{
+        margin: 20px;
+    }
+
+    .place-img-1{
+        max-width: 100%;
+        margin-top: 25px;
+    }
+
+    .newsletter{
+        flex-direction: column;
+    }
+    .
+
+    .btn-primary {
+        margin-bottom: 20px;
+    }
+}
